@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4213F78A21CD544100C3CCF1 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213F78921CD544100C3CCF1 /* RoundedBorderButton.swift */; };
+		4213F78C21CD589A00C3CCF1 /* RoundedBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213F78B21CD589A00C3CCF1 /* RoundedBorderTextField.swift */; };
+		4213F78E21CD7DD500C3CCF1 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213F78D21CD7DD500C3CCF1 /* Repo.swift */; };
+		4213F79021CD81B900C3CCF1 /* TrendingRepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213F78F21CD81B900C3CCF1 /* TrendingRepoCell.swift */; };
 		4266484021CBC6C300B486D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266483F21CBC6C300B486D6 /* AppDelegate.swift */; };
-		4266484221CBC6C300B486D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266484121CBC6C300B486D6 /* ViewController.swift */; };
+		4266484221CBC6C300B486D6 /* TrendFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266484121CBC6C300B486D6 /* TrendFeedVC.swift */; };
 		4266484521CBC6C300B486D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266484321CBC6C300B486D6 /* Main.storyboard */; };
 		4266484721CBC6C600B486D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4266484621CBC6C600B486D6 /* Assets.xcassets */; };
 		4266484A21CBC6C600B486D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266484821CBC6C600B486D6 /* LaunchScreen.storyboard */; };
+		429025CE21CE345C00E88B87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429025CD21CE345C00E88B87 /* Constants.swift */; };
+		42F5113321CBE2530023BE28 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F5113221CBE2530023BE28 /* SearchVC.swift */; };
+		98C634B5CBE014A29C74BB52 /* Pods_Versi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12371B3E7C8DDA15AF90E9EC /* Pods_Versi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12371B3E7C8DDA15AF90E9EC /* Pods_Versi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Versi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7C4F546CE10EA56DA38EFA /* Pods-Versi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Versi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Versi/Pods-Versi.debug.xcconfig"; sourceTree = "<group>"; };
+		4213F78921CD544100C3CCF1 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
+		4213F78B21CD589A00C3CCF1 /* RoundedBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderTextField.swift; sourceTree = "<group>"; };
+		4213F78D21CD7DD500C3CCF1 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		4213F78F21CD81B900C3CCF1 /* TrendingRepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepoCell.swift; sourceTree = "<group>"; };
 		4266483C21CBC6C300B486D6 /* Versi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Versi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4266483F21CBC6C300B486D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4266484121CBC6C300B486D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4266484121CBC6C300B486D6 /* TrendFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFeedVC.swift; sourceTree = "<group>"; };
 		4266484421CBC6C300B486D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4266484621CBC6C600B486D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4266484921CBC6C600B486D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4266484B21CBC6C600B486D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429025CD21CE345C00E88B87 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42F5113221CBE2530023BE28 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5DFA64D15E767B6AFEBD9C83 /* Pods-Versi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Versi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Versi/Pods-Versi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C634B5CBE014A29C74BB52 /* Pods_Versi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098DAA055D2B899B02E7BC98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12371B3E7C8DDA15AF90E9EC /* Pods_Versi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4266483321CBC6C300B486D6 = {
 			isa = PBXGroup;
 			children = (
 				4266483E21CBC6C300B486D6 /* Versi */,
 				4266483D21CBC6C300B486D6 /* Products */,
+				98D0FE46591F774F92D292C2 /* Pods */,
+				098DAA055D2B899B02E7BC98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,69 @@
 		4266483E21CBC6C300B486D6 /* Versi */ = {
 			isa = PBXGroup;
 			children = (
+				429025CC21CE344000E88B87 /* Utilities */,
+				429025CB21CE343200E88B87 /* Services */,
+				4266485321CBC78A00B486D6 /* Model */,
+				4266485221CBC78200B486D6 /* View */,
+				4266485121CBC77600B486D6 /* Controller */,
 				4266483F21CBC6C300B486D6 /* AppDelegate.swift */,
-				4266484121CBC6C300B486D6 /* ViewController.swift */,
 				4266484321CBC6C300B486D6 /* Main.storyboard */,
 				4266484621CBC6C600B486D6 /* Assets.xcassets */,
 				4266484821CBC6C600B486D6 /* LaunchScreen.storyboard */,
 				4266484B21CBC6C600B486D6 /* Info.plist */,
 			);
 			path = Versi;
+			sourceTree = "<group>";
+		};
+		4266485121CBC77600B486D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4266484121CBC6C300B486D6 /* TrendFeedVC.swift */,
+				42F5113221CBE2530023BE28 /* SearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4266485221CBC78200B486D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4213F78921CD544100C3CCF1 /* RoundedBorderButton.swift */,
+				4213F78B21CD589A00C3CCF1 /* RoundedBorderTextField.swift */,
+				4213F78F21CD81B900C3CCF1 /* TrendingRepoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4266485321CBC78A00B486D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4213F78D21CD7DD500C3CCF1 /* Repo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		429025CB21CE343200E88B87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		429025CC21CE344000E88B87 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				429025CD21CE345C00E88B87 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		98D0FE46591F774F92D292C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C4F546CE10EA56DA38EFA /* Pods-Versi.debug.xcconfig */,
+				5DFA64D15E767B6AFEBD9C83 /* Pods-Versi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4266484E21CBC6C600B486D6 /* Build configuration list for PBXNativeTarget "Versi" */;
 			buildPhases = (
+				23F9EDE11F0C3CA2629CAEAB /* [CP] Check Pods Manifest.lock */,
 				4266483821CBC6C300B486D6 /* Sources */,
 				4266483921CBC6C300B486D6 /* Frameworks */,
 				4266483A21CBC6C300B486D6 /* Resources */,
+				A00831A29C2CFD3DE4108420 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +214,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23F9EDE11F0C3CA2629CAEAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Versi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00831A29C2CFD3DE4108420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Versi/Pods-Versi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Versi/Pods-Versi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4266483821CBC6C300B486D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4266484221CBC6C300B486D6 /* ViewController.swift in Sources */,
+				42F5113321CBE2530023BE28 /* SearchVC.swift in Sources */,
+				4213F79021CD81B900C3CCF1 /* TrendingRepoCell.swift in Sources */,
+				4213F78C21CD589A00C3CCF1 /* RoundedBorderTextField.swift in Sources */,
+				4266484221CBC6C300B486D6 /* TrendFeedVC.swift in Sources */,
+				4213F78E21CD7DD500C3CCF1 /* Repo.swift in Sources */,
 				4266484021CBC6C300B486D6 /* AppDelegate.swift in Sources */,
+				4213F78A21CD544100C3CCF1 /* RoundedBorderButton.swift in Sources */,
+				429025CE21CE345C00E88B87 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +425,7 @@
 		};
 		4266484F21CBC6C600B486D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7C4F546CE10EA56DA38EFA /* Pods-Versi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +444,7 @@
 		};
 		4266485021CBC6C600B486D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFA64D15E767B6AFEBD9C83 /* Pods-Versi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
