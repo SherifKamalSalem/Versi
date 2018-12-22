@@ -7,34 +7,30 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class TrendFeedVC: UIViewController {
+    
+    var dataSource = PublishSubject<[Repo]>()
+    var disposeBag = DisposeBag()
 
+    //MARK: - Outlets
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.reloadData()
-    }
-}
-
-extension TrendFeedVC: UITableViewDelegate, UITableViewDataSource {
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        fetchData()
+        dataSource.bind(to: tableView.rx.items(cellIndentifier: "trendingRepoCell")) { (row, repo: Repo, cell: TrendingRepoCell) in
+            cell.configureCell(repo: repo)
+        }.disposedBy(disposeBag)
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "trendingRepoCell", for: indexPath) as? TrendingRepoCell else { return UITableViewCell() }
-        
-        let repo = Repo(image: UIImage(named: "searchIconLarge")!, name: "SWIFT", description: "Apple's programming language", numberOfForks: 23, numberOfContributors: 12, repoUrl: "www.google.com")
-        cell.configureCell(repo: repo)
-        return cell
+    func fetchData() {
+        //publish subject for downloading data
+        DownloadService.instance.downloadTrendingRepos { (trendingRepoArray) in
+            self.dataSource.onNext(trendingRepoArray)
+        }
     }
 }
 

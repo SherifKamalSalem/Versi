@@ -17,6 +17,7 @@
 		4266484721CBC6C600B486D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4266484621CBC6C600B486D6 /* Assets.xcassets */; };
 		4266484A21CBC6C600B486D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266484821CBC6C600B486D6 /* LaunchScreen.storyboard */; };
 		429025CE21CE345C00E88B87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429025CD21CE345C00E88B87 /* Constants.swift */; };
+		429025D021CE39D800E88B87 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429025CF21CE39D800E88B87 /* DownloadService.swift */; };
 		42F5113321CBE2530023BE28 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F5113221CBE2530023BE28 /* SearchVC.swift */; };
 		98C634B5CBE014A29C74BB52 /* Pods_Versi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12371B3E7C8DDA15AF90E9EC /* Pods_Versi.framework */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		4266484921CBC6C600B486D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4266484B21CBC6C600B486D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		429025CD21CE345C00E88B87 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		429025CF21CE39D800E88B87 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		42F5113221CBE2530023BE28 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		5DFA64D15E767B6AFEBD9C83 /* Pods-Versi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Versi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Versi/Pods-Versi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 		429025CB21CE343200E88B87 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				429025CF21CE39D800E88B87 /* DownloadService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				4266484021CBC6C300B486D6 /* AppDelegate.swift in Sources */,
 				4213F78A21CD544100C3CCF1 /* RoundedBorderButton.swift in Sources */,
 				429025CE21CE345C00E88B87 /* Constants.swift in Sources */,
+				429025D021CE39D800E88B87 /* DownloadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
