@@ -21,13 +21,14 @@ class TrendFeedVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchData()
-        dataSource.bind(to: tableView.rx.items(cellIndentifier: "trendingRepoCell")) { (row, repo: Repo, cell: TrendingRepoCell) in
+        dataSource.bind(to: tableView.rx.items) { (row, repo: Repo, cell: TrendingRepoCell) in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "trendingRepoCell")
             cell.configureCell(repo: repo)
+            return cell
         }.disposedBy(disposeBag)
     }
     
     func fetchData() {
-        //publish subject for downloading data
         DownloadService.instance.downloadTrendingRepos { (trendingRepoArray) in
             self.dataSource.onNext(trendingRepoArray)
         }
